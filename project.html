@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Vehicle Sales Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .slideshow-container {
+            max-width: 800px;
+            position: relative;
+            margin: auto;
+        }
+        .slides {
+            display: none;
+            text-align: center;
+        }
+        .slides img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid black;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        .prev {
+            left: 0;
+        }
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .dots {
+            text-align: center;
+            padding: 10px;
+            background: #ddd;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .dots span {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+        .active, .dots span:hover {
+            background-color: #717171;
+        }
+        .qa-section {
+            margin-top: 20px;
+        }
+        .qa-item {
+            margin-bottom: 20px;
+        }
+        .qa-text {
+            margin-bottom: 10px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .qa-text p{
+            letter-spacing: 1px;
+            line-height:26px;
+        }
+        #s{
+            margin-left: 5%;
+        }
+        .qa-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-left: 5%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Electric Vehicle Sales Analysis
+    </header>
+    <main>
+        <h3 id="s">I have taken the project from CodeBasics Resume Project and done the project with My Knowledge.</h3>
+        <div class="slideshow-container">
+            <div class="slides fade">
+                <div class="text" style="padding-bottom: 20px;"><h2>Date Wise Layout</h2></div>
+                <img src="1.png" alt="Description of Image 1">
+            </div>
+
+            <div class="slides fade">
+                <div class="text" style="padding-bottom: 20px;"><h2>Maker Wise Layout</h2></div>
+                <img src="3.png" alt="Description of Image 2">
+            </div>
+
+            <div class="slides fade">
+                <div class="text" style="padding-bottom: 20px;"><h2>State Wise Layout</h2></div>
+                <img src="2.png" alt="Description of Image 3">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div class="qa-section">
+            <div class="qa-item">
+                <div class="qa-text">
+                    <h2>Question & Answer Section :</h2>
+                    <h3>1. List the top 3 and bottom 3 makers for the fiscal years 2023 and 2024 in terms of the number of 2-wheelers sold?</h3>
+                    <p>The Top 3 makers for the fiscal years 2023 and 2024 are OLA ELECTRIC, TVS, and ATHER. The Bottom 3 makers for the fiscal years 2023 and 2024 are BATTRE ELECTRIC, JITENDRA, and KINETIC GREEN.</p>
+                </div>
+                <div class="qa-image">
+                    <img src="1st.png" alt="Top and Bottom Makers" style="width:250px; height:200px;">
+                </div>
+            </div>
+            <div class="qa-item">
+                <div class="qa-text">
+                    <h3>2. Identify the top 5 states with the highest penetration rate in 2-wheeler and 4-wheeler EV sales in FY 2024.</h3>
+                    <p>The Top 5 states with the highest penetration rate in 2-wheeler and 4-wheeler EV sales in FY 2024 are Goa, Kerela, Karnataka, Maharastra, Delhi.</p>
+                </div>
+                <div class="qa-image">
+                    <img src="2nd.png" alt="Top and Bottom Makers" style="width:250px; height:150px;">
+                </div>
+            </div>
+            <div class="qa-item">
+                <div class="qa-text">
+                    <h3>3. List the states with negative penetration (decline) in EV sales from 2022 to 2024?</h3>
+                    <p>There is no Negative penetration Rate From 2022 to 2024</p>
+                </div>
+            </div>   
+            <div class="qa-item">
+                <div class="qa-text">
+                    <h3>4. What are the quarterly trends based on sales volume for the top 5 EV makers (4-wheelers) from 2022 to 2024?</h3>
+                    <p>The Top 5 makers based on the quarterly trends based in the fiscal years 2023 and 2024 are 
+                        BYD India, Hyundai Motor, Mahindra, MG Motor, Tata Motors.
+                    </p>
+                </div>
+                <div class="qa-image">
+                    <img src="4th.png" alt="Top and Bottom Makers" style="width:700px; height:250px;">
+                </div>
+            </div>
+            <div class="qa-item">
+                <div class="qa-text">
+                    <h3>5. How do the EV sales and penetration rates in Delhi compare to Karnataka for 2024?</h3>
+                    <p>The Ev Sales is 160 M and penatration rate is 10.18% of Karanata is Higher Compared to the Ev Sales is 46k and penatration rate is 7.71% of Delhi.</p>
+                </div>
+                <div class="qa-image">
+                    <img src="5th.png" alt="Top and Bottom Makers" style="width:480px; height:90px;">
+                </div>
+            </div>
+            <div class="qa-item">
+                <div class="qa-text">
+                    <h3>6. List down the compounded annual growth rate (CAGR) in 4-wheeler units for the top 5 makers from 2022 to 2024.</h3>
+                    <p>The top 5 makers of compounded annual growth rate (CAGR) from 2022 to 2024 are 
+                        BMW India (1140.97%), Volvo Auto India (971.21%),
+                        BYD India (566.52%), Hyumdai Motor (255.48%), 
+                        Mercedes - Benz AG (234.55%).
+                    </p>
+                </div>
+                <div class="qa-image">
+                    <img src="6th.png" alt="Top and Bottom Makers" style="width:700px; height:200px;">
+                </div>
+            </div>
+            <div class="qa-item">
+                <div class="qa-text">
+                    <h3>7. List down the top 10 states that had the highest compounded annual
+                        growth rate (CAGR) from 2022 to 2024 in total vehicles sold.</h3>
+                    <p>The Top 10 states that had the highest compounded annual
+                        growth rate are Uttar Pradesh, Madhya Pradesh, Kerela, Gujarat, Odisha, Maharashtra, Karnataka, Rajastan, Delhi, Tamil Nadu. 
+                    </p>
+                </div>
+                <div class="qa-image">
+                    <img src="7th.png" alt="Top and Bottom Makers" style="width:700px; height:240px;">
+                </div>
+            </div>
+            <div class="qa-item">
+                <div class="qa-text">
+                    <h3>8. What are the peak and low season months for EV sales based on the
+                        data from 2022 to 2024?</h3>
+                    <p>The Peak Seasons are Febraury (133M) & March (193M). The low Season are June (62k) & July (74k).
+                    </p>
+                </div>
+                <div class="qa-image">
+                    <img src="8th.png" alt="Top and Bottom Makers" style="width:700px; height:240px;">
+                </div>
+            </div>
+            <div class="qa-item">
+                <div class="qa-text">
+                    <h3>10. Estimate the revenue growth rate of 4-wheeler and 2-wheelers
+                        EVs in India for 2022 vs 2024 and 2023 vs 2024, assuming an average
+                        unit price.</h3>
+                    <p>The revenue growth rate of 
+                        2-wheelers EVs in India for 2022 vs 2024 is 188.20% and 2023 vs 2024 is 269.28%.<br>
+                        The revenue growth rate of 4-wheeler
+                         EVs in India for 2022 vs 2024 is 155.50% and 2023 vs 2024 is 367.79%.
+                    </p>
+                </div>
+                <div class="qa-image">
+                    <img src="9th.png" alt="Top and Bottom Makers" style="width:700px; height:300px;">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("slides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+</body>
+</html>
